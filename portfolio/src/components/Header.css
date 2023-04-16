@@ -1,0 +1,27 @@
+.headerDiv {
+  color: white;
+  background-color: rgb(27, 27, 27);
+  box-shadow: 0 15px 30px rgba(128, 0, 128, 0.308);
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.myLogo {
+  width: 150px;
+}
+
+.headerLink {
+  transition: .3s all ease;
+  cursor: pointer;
+  letter-spacing: 8px;
+  text-shadow: #ff0000 0 0, #00ffff 0 0;
+  text-decoration: none;
+  color: white;
+}
+
+.headerLink:hover {
+  font-size: 2rem;
+  text-shadow: rgba(116, 0, 116, 0.486), -5px 0, #00ffff 5px 0;
+}
