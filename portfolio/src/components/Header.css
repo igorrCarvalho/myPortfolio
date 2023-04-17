@@ -1,6 +1,6 @@
 .headerDiv {
   background-color: rgb(27, 27, 27);
-  box-shadow: 0 15px 30px rgba(128, 0, 128, 0.308);
+  box-shadow: 0 10px 30px rgba(128, 0, 128, 0.308);
   height: 100px;
   display: flex;
   justify-content: space-around;
@@ -9,13 +9,18 @@
 
 .myLogo {
   width: 150px;
+  transition: width 0.1s;
+}
+
+.myLogo:hover {
+  width: 180px;
 }
 
 .headerLink {
-  transition: .3s all ease;
+  transition: .3s text-shadow, 0.3s font-size, 0.3s color;
   cursor: pointer;
   letter-spacing: 5px;
-  text-shadow: #ff0000 0 0, #00ffff 0 0;
+  text-shadow: 0 0 0#9900ff, 0 0 0 #00ffff;
   text-decoration: none;
   color: rgb(255, 241, 255);
 }
@@ -23,4 +28,5 @@
 .headerLink:hover {
   font-size: 25px;
   color: rgb(238, 171, 255);
+  text-shadow: -2px 0 10px #9900ff;
 }
