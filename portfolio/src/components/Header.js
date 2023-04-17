@@ -11,7 +11,7 @@ class Header extends Component {
         <Link to="/" className='headerLink'>
           About me
         </Link>
-        <Link className='headerLink'>
+        <Link to="/experience" className='headerLink'>
           Experience
         </Link>
         <Link className='headerLink'>
