@@ -2,6 +2,7 @@ import { Route } from 'react-router-dom';
 import { Component } from 'react';
 import InitialPage from './pages/InitialPage';
 import Experience from './pages/Experience';
+import Contact from './pages/Contact';
 
 class Routes extends Component {
   render() {
@@ -9,6 +10,7 @@ class Routes extends Component {
       <>
         <Route exact path="/" component={ InitialPage }/>
         <Route path="/experience" component={ Experience } />
+        <Route path="/contact" component={ Contact } />
       </>
     );
   }

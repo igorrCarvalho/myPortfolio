@@ -33,12 +33,19 @@
 .projectImg {
   width: 40%;
   border-radius: 20px;
+  transition: .3s width;
+}
+
+.projectImg:hover {
+  width: 50%;
+
 }
 
 .expIntroduction {
   color: rgb(255, 241, 255);
   font-family: 'Varela Round', sans-serif;
   text-shadow: 0px 2px 10px #9900ff;
+  letter-spacing: 5px;
 }
 
 .expIntroductionDiv {

@@ -20,7 +20,7 @@ class InitialPage extends Component {
                 <h2 className='hiText'>Hi!</h2>
                 <h3 className='nameText'>I'm Igor.</h3>
               </div>
-              <div>
+              <div className='abtDiv'>
                 <p className='abtMeText'>{ text }</p>
               </div>
             </div>
