@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.igorPhoto {
+  margin-right: 100px;
+  width: 300px;
+  border-radius: 100%;
+  transition: .3s width;
+}
+
+.igorPhoto:hover {
+  width: 350px;
+}
+
+.abtMeText {
+  font-size: 15px;
+  font-family: 'Varela Round', sans-serif;
+  color:rgb(255, 241, 255);
+  text-shadow: 0px 2px 10px #9900ff;
+  transition: 0.1s font-size, 0.1s text-shadow;
+}
+
+.abtMeText:hover {
+  font-size: 17px;
+  text-shadow: 0px 4px 10px #9900ff;
+}
+
+.abtDiv {
+  width: 100%;
+}
+
+.nameText {
+  margin-left: 20px;
+  text-shadow: 0px 2px 10px #9900ff;
+  color: rgb(255, 241, 255);
+  transition: 0.1s font-size, 0.3s text-shadow  ;
+}
+
+.nameText:hover {
+  font-size: 75px;
+  text-shadow: 0px 5px 15px #9900ff;
+}
+
+.abtMeSection {
+  height: 550px;
+  border-radius: 20px;
+  margin: 150px auto 0;
+  width: 80%;
+  box-shadow: 1.5px 3px 15px rgba(128, 0, 128, 0.308);
+  background-color: rgb(16, 11, 20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hiText {
+  font-size: 80px;
+  text-shadow: 0px 2px 10px #9900ff;
+  color: rgb(206, 61, 206);
+  transition: .1s font-size, .3s text-shadow;
+}
+
+.hiText:hover {
+  font-size: 90px;
+  text-shadow: 0px 6px 15px #9900ff;
+}
+
+.nameDiv {
+  align-items: baseline;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  letter-spacing: 3px; 
+}
