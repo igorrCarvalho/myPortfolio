@@ -1,5 +1,9 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 import Header from "../components/Header";
+import mailIcon from '../Pictures/mailIcon.png';
+import wppIcon from '../Pictures/wppIcon.png';
 import './Contact.css';
 
 class Contact extends Component {
@@ -14,10 +18,21 @@ class Contact extends Component {
             </h2>
           </div>
           <div className='contactInfoDiv'>
-            <h3 className='contactLink'>{ `LinkedIn: https://www.linkedin.com/in/dev-igor-carvalho/` }</h3>
-            <h3 className='contactLink'>{ `gitHub: https://github.com/igorrCarvalho` }</h3>
-            <h3 className='contactLink'>{ `Email: igorsilvabhz6@gmail.com` }</h3>
-            <h3 className='contactLink'>{ `Phone: +55 (31) 99838-4667` }</h3>
+            <div className="iconsDiv">
+              <a target="_blank" href={ 'https://www.linkedin.com/in/dev-igor-carvalho/' }>
+                <i id="linkedin" class="devicon-linkedin-plain colored"></i>
+              </a>
+              <a target="_blank" href={ 'https://www.github.com/igorrCarvalho' }>
+                <i id="gitHub" class="devicon-github-original"></i>
+              </a>
+              <a target="_blank" href="https://wa.me/5531998384667" className='contactLink'>
+                <img src={ wppIcon } alt="phone icon" className="wppIcon" />
+              </a>
+            </div>
+            <div className="contactLinkDiv">
+              <img src={ mailIcon } alt="mail icon" />
+              <a className='contactLink'>{ `igorsilvabhz6@gmail.com` }</a>
+            </div>
           </div>
         </section>
       </>

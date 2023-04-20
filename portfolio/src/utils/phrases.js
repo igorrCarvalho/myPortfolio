@@ -15,10 +15,14 @@ const trybeTunesTxt = `This project simulates an music website (like spotify). I
 
 const trybeWalletTxt = `This project was made using the TDD (Test Driven Development) method and simulates an expense control wallet. It uses an currency API key to get the currencies info. The user needs to login with an valid email and a password bigger than six digits. In the wallet page the user can add the expense in various currencies. When the expense is added, the value is converted to BRL, and updated in the header. You can also edit and delete an expense.`;
 
+const texts = {
+  tryunfoTxt,
+  trybeTunesTxt,
+  trybeWalletTxt,
+};
+
 export {
   githubLinks,
-  trybeWalletTxt,
-  trybeTunesTxt,
-  tryunfoTxt,
   abtMeText,
+  texts,
 }

@@ -6,6 +6,7 @@
   justify-content: center;
   flex-direction: column;
   background-color: rgb(16, 11, 20);
+  height: 500px;
   margin: 80px auto 0;
   width: 60%;
   border-radius: 20px;
@@ -19,6 +20,15 @@
   font-family: 'Varela Round', sans-serif;
 }
 
+.iconsDiv {
+  display: flex;
+}
+
+.iconsDiv a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
 .contactInfoDiv {
   display: flex;
   flex-direction: column;
@@ -27,6 +37,44 @@
 }
 
 .contactLink {
+  margin-left: 10px;
   font-family: 'Varela Round', sans-serif;;
   color: rgb(255, 241, 255);
+}
+
+#linkedin {
+  font-size: 30px;
+}
+
+#gitHub {
+  font-size: 30px;
+  color: rgb(255, 241, 255);
+}
+
+.contactLinkDiv {
+  display: flex;
+  align-items: center;
+}
+
+.contactLinkDiv h3 {
+  margin-left: 10px;
+}
+
+.wppIcon {
+  border-radius: 20px;
+}
+
+.contactLink {
+  transition: .3s text-shadow, 0.3s font-size, 0.3s color;
+  cursor: pointer;
+  letter-spacing: 5px;
+  text-shadow: 0 0 0#9900ff, 0 0 0 #00ffff;
+  text-decoration: none;
+  color: rgb(255, 241, 255);
+}
+
+.contactLink:hover {
+  font-size: 25px;
+  color: rgb(238, 171, 255);
+  text-shadow: -2px 0 10px #9900ff;
 }
