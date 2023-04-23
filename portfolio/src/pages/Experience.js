@@ -13,7 +13,7 @@ class Experience extends Component {
             <h3 className='expIntroduction'>Here are some projects i have already done</h3>
           </div>
           <div className='allProjectsDiv'>
-            { experienceData.map((obj) => (
+            { experienceData.map((obj, index) => (
               <>
                 <div className='projectDiv'>
                   <h4 className='projectDescription'>{ obj.text }</h4>

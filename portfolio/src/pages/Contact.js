@@ -20,10 +20,10 @@ class Contact extends Component {
           <div className='contactInfoDiv'>
             <div className="iconsDiv">
               <a target="_blank" href={ 'https://www.linkedin.com/in/dev-igor-carvalho/' }>
-                <i id="linkedin" class="devicon-linkedin-plain colored"></i>
+                <i id="linkedin" className="devicon-linkedin-plain colored"></i>
               </a>
               <a target="_blank" href={ 'https://www.github.com/igorrCarvalho' }>
-                <i id="gitHub" class="devicon-github-original"></i>
+                <i id="gitHub" className="devicon-github-original"></i>
               </a>
               <a target="_blank" href="https://wa.me/5531998384667" className='contactLink'>
                 <img src={ wppIcon } alt="phone icon" className="wppIcon" />
