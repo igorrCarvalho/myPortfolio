@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 .headerDiv {
   background-color: rgb(27, 27, 27);
   box-shadow: 0 10px 30px rgba(128, 0, 128, 0.308);
@@ -23,10 +25,30 @@
   text-shadow: 0 0 0#9900ff, 0 0 0 #00ffff;
   text-decoration: none;
   color: rgb(255, 241, 255);
+  font-family: 'Varela Round', sans-serif;
 }
 
 .headerLink:hover {
   font-size: 25px;
   color: rgb(238, 171, 255);
   text-shadow: -2px 0 10px #9900ff;
+}
+
+.inputDiv {
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputText {
+  color: rgb(255, 241, 255);
+  margin-bottom: 5px;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 4px;
 }

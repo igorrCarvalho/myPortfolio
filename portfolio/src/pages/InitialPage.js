@@ -25,6 +25,12 @@ class InitialPage extends Component {
               </div>
             </div>
           </section>
+          <section className='techSection'>
+            <h3 className='techTitle'>Some technologies i use</h3>
+            <div>
+              <i id='reactTechLogo' class="devicon-react-original-wordmark colored"></i>
+            </div>
+          </section>
         </main>
       </>
     );
