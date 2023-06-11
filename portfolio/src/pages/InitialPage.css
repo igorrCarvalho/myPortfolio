@@ -3,12 +3,9 @@
 .igorPhoto {
   margin-right: 100px;
   width: 300px;
+  height: 375px;
   border-radius: 100%;
   transition: .3s width;
-}
-
-.igorPhoto:hover {
-  width: 350px;
 }
 
 .abtMeText {
@@ -85,4 +82,38 @@
 
 #reactTechLogo {
   font-size: 30px;
+}
+
+.techLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.reactLogo {
+  width: 65px;
+  height: 50px;
+}
+
+.nodeLogo {
+  width: 70px;
+  height: 50px;
+}
+
+.dockerLogo {
+  width: 65px;
+  height: 50px;
+}
+
+.mongoDBLogo {
+  width: 90px;
+  height: 50px;
+}
+
+.mySQLLogo {
+  width: 65px;
+  height: 50px;
+}
+
+.techSection div img {
+  margin: 50px 20px 0 0;
 }
