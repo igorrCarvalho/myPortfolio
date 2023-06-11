@@ -8,25 +8,29 @@ import { githubLinks, texts } from './phrases';
 const experienceData = [
   {
     title: 'Tryunfo',
-    text: texts.tryunfoTxt,
+    en_text: texts.tryunfoEnTxt,
+    pt_text: texts.tryunfoPtTxt,
     data: tryunfoGif,
     repo: githubLinks.tryunfo,
   },
   {
     title: 'Trybetunes',
-    text: texts.trybeTunesTxt,
+    en_text: texts.trybeTunesEnTxt,
+    pt_text: texts.trybeTunesPtTxt,
     data: trybeTunesGif,
     repo: githubLinks.trybeTunes,
   },
   {
     title: 'Expense Wallet',
-    text: texts.trybeWalletTxt,
+    en_text: texts.trybeWalletEnTxt,
+    pt_text: texts.trybeWalletPtTxt,
     data: trybeWalletGif,
     repo: githubLinks.trybeWallet,
   },
   {
     title: 'Talker Manager',
-    text: texts.talkerManagerTxt,
+    en_text: texts.talkerManagerEnTxt,
+    pt_text: texts.talkerManagerPtTxt,
     data: talkerManager,
     repo: githubLinks.talkerManager,
   },
